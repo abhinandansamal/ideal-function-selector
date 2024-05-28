@@ -48,7 +48,7 @@ python main.py
     * `data_visualizer.py` - Visualizes the data using Bokeh.
     * `database.py` - Handles database-related operations.
 * `main.py` - Main script to run the project.
-* `tests.py` - Contains unit test for the project components.
+* `test/` - Contains unit test for the project components.
 * `README.md` - Project documentation.
 * `requirements.txt` - List of dependencies.
 * `setup.py` - Setup script for the package.
@@ -57,8 +57,9 @@ python main.py
 ...
 # License
 ...
+```bash
 MIT
-
+```
 
 ### Project Directory Structure
 Here is the full directory structure after running `template.py` and adding the required files.
@@ -72,8 +73,6 @@ Here is the full directory structure after running `template.py` and adding the 
 ├── config/
 │ └── config.yaml
 │
-├── config/
-│
 ├── research/
 │ └── trials.ipynb
 │
@@ -85,10 +84,16 @@ Here is the full directory structure after running `template.py` and adding the 
 │ │ ├── data_loader.py
 │ │ ├── data_processor.py
 │ │ ├── data_visualizer.py
-│ ├── database.py
+│ ├── database
+│ │ ├── init.py
+│ │ ├── database.py
+│
+├── test/
+│ └── init.py
+│ └── test_data_loader.py
+│ └── test_data_processor.py
 │
 ├── main.py
-├── tests.py
 ├── README.md
 ├── requirements.txt
 ├── template.py
