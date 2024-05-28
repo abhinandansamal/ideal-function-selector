@@ -103,8 +103,8 @@ Here is the full directory structure after running `template.py` and adding the 
 ```
 
 ```bash
-### `requirements.txt`
-```
+### requirements.txt
+
 numpy
 pandas
 sqlalchemy
@@ -112,6 +112,7 @@ bokeh
 ipykernel
 notebook
 pyyaml
+```
 
 ```bash
 ### Git Commands
