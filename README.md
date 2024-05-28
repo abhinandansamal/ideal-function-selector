@@ -63,6 +63,7 @@ MIT
 ### Project Directory Structure
 Here is the full directory structure after running `template.py` and adding the required files.
 
+```bash
 .project_root/
 │
 ├── .github/
@@ -94,6 +95,7 @@ Here is the full directory structure after running `template.py` and adding the 
 ├── template.py
 ├── setup.py
 └── LICENSE
+```
 
 ```bash
 ### `requirements.txt`
