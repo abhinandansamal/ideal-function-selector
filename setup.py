@@ -8,7 +8,7 @@ __version__ = "0.0.1"
 
 REPO_NAME = "ideal-function-selector"
 AUTHOR_USER_NAME = "abhinandansamal"
-SRC_REPO = "ideal-function-selector"
+SRC_REPO = "ideal_function_selector"
 AUTHOR_EMAIL = "samalabhinandan06@gmail.com"
 
 setuptools.setup(

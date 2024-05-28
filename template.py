@@ -5,7 +5,7 @@ import logging
 # logging string
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = 'ideal-function-selector'
+project_name = 'ideal_function_selector'
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -14,13 +14,13 @@ list_of_files = [
     f"src/{project_name}/components/data_loader.py",
     f"src/{project_name}/components/data_processor.py",
     f"src/{project_name}/components/data_visualizer.py",
-    f"src/{project_name}/database.py",
+    f"src/{project_name}/database/database.py",
+    f"test/__init__.py",
     "config/config.yaml",
     "data/.gitkeep",
     "requirements.txt",
     "setup.py",
     "main.py",
-    "tests.py",
     "research/trials.ipynb",
     "README.md"
 ]
